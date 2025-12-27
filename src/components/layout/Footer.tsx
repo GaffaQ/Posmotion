@@ -111,8 +111,8 @@ export function Footer() {
             © 2026 Posmotion. Hak Cipta Dilindungi.
           </p>
           <div className="flex gap-6 text-sm text-ocean-mist/85">
-            {/* <a href="#" className="hover:text-ocean-cyan transition-colors">Kebijakan Privasi</a>
-            <a href="#" className="hover:text-ocean-cyan transition-colors">Syarat & Ketentuan</a> */}
+            <a href="#" className="hover:text-ocean-cyan transition-colors">Kebijakan Privasi</a>
+            <a href="#" className="hover:text-ocean-cyan transition-colors">Syarat & Ketentuan</a>
           </div>
         </div>
       </div>

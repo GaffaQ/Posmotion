@@ -98,7 +98,7 @@ export function Header() {
           whileHover={{ scale: 1.02 }}
           transition={{ duration: 0.2 }}
         >
-          {/* <Button
+          <Button
             asChild
             className={cn(
               "rounded-lg font-semibold transition-all duration-300",
@@ -107,8 +107,8 @@ export function Header() {
                 : "bg-gradient-to-r from-cyan-300 to-blue-300 hover:shadow-lg hover:shadow-cyan-300/50 text-blue-950"
             )}
           >
-            <a href="#contact">Juknis</a>
-          </Button> */}
+            <a href="https://drive.google.com/file/d/1FP-63d6MYsiIxQai3tkqYFNp45kfJVWY/view?usp=sharing">Rule Book</a>
+          </Button>
         </motion.div>
 
         {/* Mobile Menu Toggle */}
@@ -159,12 +159,12 @@ export function Header() {
                 </motion.div>
               ))}
               <motion.div whileHover={{ x: 4 }} transition={{ duration: 0.2 }} className="pt-2">
-                {/* <Button
+                <Button
                   asChild
                   className="w-full bg-gradient-to-r from-cyan-400 to-blue-400 hover:shadow-lg hover:shadow-cyan-400/50 text-blue-950 font-semibold rounded-lg"
                 >
-                  <a href="#contact">Juknis</a>
-                </Button> */}
+                  <a href="https://drive.google.com/file/d/1FP-63d6MYsiIxQai3tkqYFNp45kfJVWY/view?usp=sharing">Rule Book</a>
+                </Button>
               </motion.div>
             </nav>
           </motion.div>

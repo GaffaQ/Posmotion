@@ -2,6 +2,16 @@ import newsBanner1 from "@/assets/news-banner-1.jpg";
 import newsBanner2 from "@/assets/news-banner-2.jpg";
 import newsBanner3 from "@/assets/news-banner-3.jpg";
 import banner from "@/assets/banner.png";
+import mewarnaiPoster from "@/data/poster/mewarnai.png";
+import fashionShowPoster from "@/data/poster/fashion_show.png";
+import tariKreasiPoster from "@/data/poster/tari_kreasi.png";
+import pildacilPoster from "@/data/poster/pildacil.png";
+import mhqPoster from "@/data/poster/mhq.png";
+import futsalPoster from "@/data/poster/futsal.png";
+import nyanyiSoloPoster from "@/data/poster/nyanyi_solo.png";
+import storyTellingPoster from "@/data/poster/story_telling.png";
+import desainPoster from "@/data/poster/desain_poster.png";
+import vidiografiPoster from "@/data/poster/viceografi.png";
 
 export interface NewsItem {
   id: string;
@@ -37,9 +47,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Kreasikan karya mewarnai terbaikmu dan tunjukkan imajinasimu!",
     category: "Seni",
     optionCategory: "option1",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: mewarnaiPoster,
+    contentImages: [mewarnaiPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/3yhRvc5sopZqz8az8",
     content: {
@@ -102,9 +112,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Tampilkan gaya busana unik dan percaya diri di atas panggung!",
     category: "Seni",
     optionCategory: "option1",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: fashionShowPoster,
+    contentImages: [fashionShowPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/P2jser4USK4vV6on7",
     content: {
@@ -183,9 +193,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Ekspresikan gerakan tari kreatifmu dalam kompetisi yang seru!",
     category: "Seni",
     optionCategory: "option2",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: tariKreasiPoster,
+    contentImages: [tariKreasiPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/RTsW3HU1NXi6Utgc7",
     content: {
@@ -204,23 +214,39 @@ export const newsData: NewsItem[] = [
         },
         {
           type: "paragraph",
-          text: "Setiap sekolah mengirimkan 1 tim berisi maksimal 7 orang. Satu guru pendamping yang ditugaskan sekolah untuk mendampingi peserta lomba yang berasal dari sekolah yang sama."
+          text: "1. Setiap sekolah mengirimkan 1 tim berisi maksimal 7 orang"
         },
         {
           type: "paragraph",
-          text: "Peserta dibebaskan untuk memilih lagu tradisional. Tarian dibuat sekreatif mungkin. Diperbolehkan untuk membawa properti."
+          text: "2. Peserta dibebaskan untuk memilih lagu tradisional"
         },
         {
           type: "paragraph",
-          text: "Musik disediakan oleh sekolah sendiri dan wajib dikirimkan ke nomor KPSA paling lambat 2 hari sebelum lomba dalam bentuk file mp3."
+          text: "3. Tarian dibuat sekreatif mungkin"
         },
         {
           type: "paragraph",
-          text: "Peserta lomba wajib hadir minimal 1 jam sebelum lomba mulai. Urutan nomor ditentukan oleh waktu kedatangan, dimulai dari yang paling awal."
+          text: "4. Diperbolehkan untuk membawa properti"
         },
         {
           type: "paragraph",
-          text: "Waktu yang diberikan untuk tiap tim adalah 3-10 menit untuk penampilan."
+          text: "5. Satu guru pendamping yang ditugaskan sekolah untuk mendampingi peserta lomba yang berasal dari sekolah yang sama."
+        },
+        {
+          type: "paragraph",
+          text: "6. Musik di sediakan oleh sekolah sendiri dan wajib dikirimkan ke nomor KPSA paling lambat 2 hari sebelum lomba dan dikirimkan dalam bentuk file mp3"
+        },
+        {
+          type: "paragraph",
+          text: "7. Peserta lomba wajib hadir minimal 1 jam sebelum lomba mulai"
+        },
+        {
+          type: "paragraph",
+          text: "8. Urutan nomor ditentukan oleh waktu kedatangan, dimulai dari yang paling awal"
+        },
+        {
+          type: "paragraph",
+          text: "9. Waktu yang diberikan untuk tiap tim adalah 3-10 menit untuk penampilan"
         },
         {
           type: "subtitle",
@@ -228,27 +254,27 @@ export const newsData: NewsItem[] = [
         },
         {
           type: "paragraph",
-          text: "Wiraga: Kemampuan gerak tari dari masing-masing penari."
+          text: "Wiraga (Kemampuan Gerak tari dari masing masing penari)"
         },
         {
           type: "paragraph",
-          text: "Wirasa: Penghayatan dalam pencapaian ekspresi."
+          text: "Wirasa (Penghayatan dalam pencapaian ekspresi)"
         },
         {
           type: "paragraph",
-          text: "Wirama: Ketepatan gerak tari dengan musik iringan."
+          text: "Wirama (Ketepatan Gerak tari dengan musik iringan)"
         },
         {
           type: "paragraph",
-          text: "Harmonisasi: Keserasian dari wiraga, wirasa, dan wirama."
+          text: "Harmonisasi (Keserasian dari wiraga, wirasa, dan wirama)"
         },
         {
           type: "paragraph",
-          text: "Keserasian tata busana (kostum tari) dan tata busana (make up dan aksesoris) dengan tarian yang dibawakan."
+          text: "Keserasian tata busana (kostum tari) dan tata busana (make up dan aksesoris) dengan tarian yang dibawakan"
         },
         {
           type: "paragraph",
-          text: "Kekompakan berpindah tempat, keserasian dalam bergerak."
+          text: "Kekompakan berpindah tempat, keserasian dalam bergerak"
         }
       ]
     }
@@ -260,9 +286,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Kompetisi pidato anak yang menginspirasi dan menghibur!",
     category: "Bahasa",
     optionCategory: "option2",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: pildacilPoster,
+    contentImages: [pildacilPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/Ka2ATeM2cM6747sP8",
     content: {
@@ -321,9 +347,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Kompetisi menghafal Al-Quran untuk siswa SD/MI yang tekun!",
     category: "Keagamaan",
     optionCategory: "option2",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: mhqPoster,
+    contentImages: [mhqPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/wd7C2R4q8hGbbu169",
     content: {
@@ -398,9 +424,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Pertandingan futsal seru untuk siswa SMP/MTS yang energik!",
     category: "Olahraga",
     optionCategory: "option3",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: futsalPoster,
+    contentImages: [futsalPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/k9zttitsejgcJ3F7A",
     content: {
@@ -503,9 +529,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Tampilkan suara emasmu dalam kompetisi nyanyi solo!",
     category: "Seni",
     optionCategory: "option3",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: nyanyiSoloPoster,
+    contentImages: [nyanyiSoloPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/rHh4zPfUg5w2aPLv8",
     content: {
@@ -564,9 +590,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Ceritakan kisah menarik dengan gaya yang memukau!",
     category: "Bahasa",
     optionCategory: "option3",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: storyTellingPoster,
+    contentImages: [storyTellingPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/zEJ2JaFMfgsWcQjC9",
     content: {
@@ -585,19 +611,27 @@ export const newsData: NewsItem[] = [
         },
         {
           type: "paragraph",
-          text: "Peserta merupakan pelajar SMP/MTs sederajat se-Wilayah 3 Cirebon (CIAYUMAJAKUNING). Lomba diikuti oleh individu, setiap sekolah mengirimkan peserta lomba maksimal 2 orang."
+          text: "1. Lomba diikuti oleh individu, setiap sekolah mengirimkan peserta lomba maksimal 2 orang."
         },
         {
           type: "paragraph",
-          text: "Peserta menampilkan cerita sesuai dengan tema yang disediakan (Fantasi Imajinatif). Durasi minimal 5-7 menit (Toleransi kelebihan/kekurangan waktu 30 detik)."
+          text: "2. Peserta menampilkan cerita sesuai dengan tema yang disediakan (Fantasi Imajinatif)."
         },
         {
           type: "paragraph",
-          text: "Peserta WAJIB menggunakan kostum dan properties untuk mendukung cerita. Peserta WAJIB menyerahkan naskah kepada juri (format A4, Font Times New Roman ukuran 14) dengan rapih sebelum tampil."
+          text: "3. Durasi minimal 5-7 menit (Toleransi kelebihan\\kekurangan waktu 30 detik)."
         },
         {
           type: "paragraph",
-          text: "Keputusan juri bersifat ABSOLUTE (mutlak)."
+          text: "4. Peserta WAJIB menggunakan kostum dan properties untuk mendukung cerita."
+        },
+        {
+          type: "paragraph",
+          text: "5. Peserta WAJIB menyerahkan naskah kepada juri (format A4, Font Times New Roman ukuran 14) dengan rapih sebelum tampil."
+        },
+        {
+          type: "paragraph",
+          text: "6. Keputusan juri bersifat ABSOLUTE (mutlak)."
         }
       ]
     }
@@ -609,9 +643,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Kreasikan poster yang informatif dan menarik perhatian!",
     category: "Seni",
     optionCategory: "option4",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: desainPoster,
+    contentImages: [desainPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/9aqUUSh3NyvhX6oE6",
     content: {
@@ -630,11 +664,11 @@ export const newsData: NewsItem[] = [
         },
         {
           type: "paragraph",
-          text: "Peserta yang mengikuti lomba desain poster merupakan pelajar aktif kelas X, XI, XII. Setiap sekolah diperbolehkan mendaftar dengan maksimal kuota 2 peserta."
+          text: "Peserta yang mengikuti lomba desain poster merupakan pelajar aktif kelas X,XI,XII. Setiap sekolah diperbolehkan mendaftar dengan maksimal kuota 2 peserta."
         },
         {
           type: "paragraph",
-          text: "Tema desain poster adalah 'ocean' dengan materi 'konservasi dan lingkungan'. Cakupan software atau aplikasi yang digunakan bebas."
+          text: "Tema desain poster adalah \"ocean\" dengan materi \"konservasi dan lingkungan\". Cakupan software atau aplikasi yang digunakan bebas."
         },
         {
           type: "paragraph",
@@ -649,24 +683,20 @@ export const newsData: NewsItem[] = [
           text: "Karya desain poster tidak boleh mengandung unsur yang bertentangan dengan peraturan perundang-undangan yang berlaku di Indonesia: keusilan, moral, kekerasan dan tidak mengandung isi pornografi, serta bertentangan dengan SARA (suku agama dan RAS)."
         },
         {
+          type: "subtitle",
+          text: "LOMBA DESAIN POSTER"
+        },
+        {
           type: "paragraph",
           text: "Karya yang dilombakan merupakan hasil karya asli peserta, panitia berhak menggunakan desain poster untuk keperluan publikasi."
         },
         {
           type: "paragraph",
-          text: "Peserta mengunggah hasil karya pada feeds Instagram masing-masing peserta dengan menyertakan #POSMOTION4_2026 #DesainPosterOnlinePosmotion4_2026."
+          text: "Peserta mengunggah hasil karya pada feeds instagram masing masing peserta dengan menyertakan #POSMOTION4_2026 #DesainPosterOnlinePosmotion4_2026, saat memposting di instagram peserta WAJIB untuk follow dan tag akun resmi @official.posmotion, akun peserta tidak boleh di private, peserta menggunakan format caption: POSMOTION4_2026 - kategori lomba – nama sekolah serta menjelaskan filosofi atau ide dari desain poster."
         },
         {
           type: "paragraph",
-          text: "Saat memposting di Instagram peserta WAJIB untuk follow dan tag akun resmi @official.posmotion, akun peserta tidak boleh di private."
-        },
-        {
-          type: "paragraph",
-          text: "Peserta menggunakan format caption: POSMOTION4_2026 - kategori lomba - nama sekolah serta menjelaskan filosofi atau ide dari desain poster."
-        },
-        {
-          type: "paragraph",
-          text: "Pemenang akan tampilkan hasil karyanya di malam puncak. Peserta mengikuti lomba ini secara online."
+          text: "Pemenang akan tampilkan hasil karya nya di malam puncak. Peserta mengikutin lomba ini secara online."
         },
         {
           type: "subtitle",
@@ -686,9 +716,9 @@ export const newsData: NewsItem[] = [
     excerpt: "Buat video kreatif yang menginspirasi dan menghibur!",
     category: "Seni",
     optionCategory: "option4",
-    image: banner,
-    contentImages: [banner],
-    date: "15 Desember 2026",
+    image: vidiografiPoster,
+    contentImages: [vidiografiPoster],
+    date: "1 Januari 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/Q2Tcyxvpc6jeeTEa9",
     content: {
