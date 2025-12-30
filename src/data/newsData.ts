@@ -49,7 +49,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option1",
     image: mewarnaiPoster,
     contentImages: [mewarnaiPoster],
-    date: "1 Januari 2026",
+    date: "14 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/3yhRvc5sopZqz8az8",
     content: {
@@ -114,7 +114,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option1",
     image: fashionShowPoster,
     contentImages: [fashionShowPoster],
-    date: "1 Januari 2026",
+    date: "16 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/P2jser4USK4vV6on7",
     content: {
@@ -195,7 +195,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option2",
     image: tariKreasiPoster,
     contentImages: [tariKreasiPoster],
-    date: "1 Januari 2026",
+    date: "16 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/RTsW3HU1NXi6Utgc7",
     content: {
@@ -288,7 +288,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option2",
     image: pildacilPoster,
     contentImages: [pildacilPoster],
-    date: "1 Januari 2026",
+    date: "14 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/Ka2ATeM2cM6747sP8",
     content: {
@@ -349,7 +349,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option2",
     image: mhqPoster,
     contentImages: [mhqPoster],
-    date: "1 Januari 2026",
+    date: "16 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/wd7C2R4q8hGbbu169",
     content: {
@@ -426,7 +426,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option3",
     image: futsalPoster,
     contentImages: [futsalPoster],
-    date: "1 Januari 2026",
+    date: "11-13 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/k9zttitsejgcJ3F7A",
     content: {
@@ -531,7 +531,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option3",
     image: nyanyiSoloPoster,
     contentImages: [nyanyiSoloPoster],
-    date: "1 Januari 2026",
+    date: "16 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/rHh4zPfUg5w2aPLv8",
     content: {
@@ -592,7 +592,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option3",
     image: storyTellingPoster,
     contentImages: [storyTellingPoster],
-    date: "1 Januari 2026",
+    date: "14 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/zEJ2JaFMfgsWcQjC9",
     content: {
@@ -645,7 +645,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option4",
     image: desainPoster,
     contentImages: [desainPoster],
-    date: "1 Januari 2026",
+    date: "1 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/9aqUUSh3NyvhX6oE6",
     content: {
@@ -718,7 +718,7 @@ export const newsData: NewsItem[] = [
     optionCategory: "option4",
     image: vidiografiPoster,
     contentImages: [vidiografiPoster],
-    date: "1 Januari 2026",
+    date: "1 April 2026",
     author: "Panitia Posmotion",
     registrationLink: "https://forms.gle/Q2Tcyxvpc6jeeTEa9",
     content: {

@@ -5,25 +5,25 @@ const timelineEvents = [
   {
     icon: Users,
     title: "Pendaftaran",
-    date: "1-10 Januari 2026",
+    date: "Januari - Maret 2026",
     description: "Periode pendaftaran peserta lomba Posmotion",
   },
   {
     icon: Calendar,
     title: "Technical Meet",
-    date: "11 Januari 2026",
+    date: "10 April 2026",
     description: "Rapat teknis dan verifikasi peserta",
   },
   {
     icon: Trophy,
     title: "Perlombaan",
-    date: "12-20 Januari 2026",
+    date: "11-16 April 2026",
     description: "Pelaksanaan semua kategori lomba",
   },
   {
     icon: Award,
     title: "Awarding Night",
-    date: "21 Januari 2026",
+    date: "17 April 2026",
     description: "Malam penganugerahan dan penutupan acara",
   },
 ];
